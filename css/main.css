@@ -76,19 +76,23 @@ h2{
 
 .rocks {
   width: 100%;
+  margin: -1px;
+  border-color: #512200;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .antnest {
   color: white;
   font-size: 1.5em;
   position: absolute;
-  margin: 58% 19%;
+  margin: 58% 14.5%;
 }
 
 .antnestbeetle {
   width: 50%;
   float: left;
-  margin-top: 109px;
+  margin-top: 110px;
   margin-left: 0;
 }
 
@@ -96,13 +100,13 @@ h2{
   color: white;
   font-size: 1.5em;
   position: absolute;
-  margin: 58% 72%;
+  margin: 58% 67.5%;
 }
 
 .stag-beetle {
   width: 50%;
   float: right;
-  margin-top: 109px;
+  margin-top: 110px;
   margin-right: 0;
 }
 
@@ -110,7 +114,7 @@ h2{
   color: white;
   font-size: 1.5em;
   position: absolute;
-  margin: -10% 16%;
+  margin: -10% 14.5%;
 }
 
 .dung-beetle {
@@ -122,10 +126,29 @@ h2{
   color: white;
   font-size: 1.5em;
   position: absolute;
-  margin: -10% 70%;
+  margin: -10% 67.5%;
 }
 
 .tortoise-beetle {
   width: 50%;
   float: right;
+}
+
+p {
+background: linear-gradient(to bottom, #70bd22, #3d8314);
+padding: 0.3em 1em;
+border-radius: .75em;
+box-shadow: 0 .2em .5em 0 black;
+margin-top: 17px;
+}
+
+main {
+  display: block;
+}
+
+footer {
+  background-color: #a79082;
+  position: absolute;
+  width: 100%;
+  text-align: center;
 }
