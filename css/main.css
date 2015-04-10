@@ -131,24 +131,10 @@ h2{
 }
 
 .tortoise {
-  display: inline-block;
-  padding: 0.25em 0.75em;
-  text-decoration: none;
-  border-radius: 10px;
-  color: #fff;
-  background-color: #a8ae98;
-  background-image: linear-gradient(to bottom, #6FC000, #388200);
+  color: white;
+  font-size: 1.5em;
   position: absolute;
-  bottom: -70%;
-  right: 13%;
-  width: 25%;
-  text-align: center;
-  font-weight: bold;
-}
-
-.all {
-  position: relative;
-  clear: both;
+  margin: -10% 67.5%;
 }
 
 .tortoise-beetle {
@@ -157,17 +143,13 @@ h2{
   margin-top: -50.52%;
 }
 
-a:hover {
-  background-color: #512200;
-  color: white;
-}
-
 p {
 background: linear-gradient(to bottom, #70bd22, #3d8314);
 padding: 0.3em 1em;
 border-radius: .75em;
 box-shadow: 0 .2em .5em 0 black;
-margin-top: 17px;
+width: 25%;
+text-align: center;
 }
 
 main {
