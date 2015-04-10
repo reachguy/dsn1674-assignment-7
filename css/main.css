@@ -38,13 +38,13 @@ nav a {
   text-decoration: none;
   display: block;
   margin: 0;
-  padding: 0.25em;
+  padding: 0.75em;
   color: white;
   background-color: #512200;
   opacity: 0.5;
   font-weight: bold;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 a:hover {
   background-color: #512200;
