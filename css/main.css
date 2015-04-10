@@ -51,6 +51,10 @@ a:hover {
   opacity: .75;
   color: white;
 }
+div a:hover {
+  background-image: linear-gradient(to bottom, #68993c, #33692e);
+  opacity: 1;
+}
 nav li {
   list-style-type: none;
   display: inline-block;
