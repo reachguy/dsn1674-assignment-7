@@ -6,7 +6,8 @@ h1 {
   color: #512200;
   font-size: 3em;
   padding: .5em;
-  margin: 0;
+  margin: -5px;
+  margin-bottom: 10px;
 }
 
 body {
@@ -51,6 +52,12 @@ nav li a {
   text-decoration: none;
 }
 
+nav li:hover {
+  background-color: #512200;
+  opacity: .75;
+  color: white;
+}
+
 .beetle-left{
   width: 105px;
   left: 5px;
@@ -80,6 +87,7 @@ h2{
   border-color: #512200;
   border-width: 2px;
   border-style: solid;
+  background: linear-gradient(to bottom, #70bd22, #3d8314);
 }
 
 .antnest {
@@ -123,15 +131,35 @@ h2{
 }
 
 .tortoise {
-  color: white;
-  font-size: 1.5em;
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #a8ae98;
+  background-image: linear-gradient(to bottom, #6FC000, #388200);
   position: absolute;
-  margin: -10% 67.5%;
+  bottom: -70%;
+  right: 13%;
+  width: 25%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.all {
+  position: relative;
+  clear: both;
 }
 
 .tortoise-beetle {
   width: 50%;
   float: right;
+  margin-top: -50.52%;
+}
+
+a:hover {
+  background-color: #512200;
+  color: white;
 }
 
 p {
@@ -151,4 +179,13 @@ footer {
   position: absolute;
   width: 100%;
   text-align: center;
+  margin-top: -4px;
+}
+
+footer img {
+  width: 15%;
+}
+
+beetle-footer {
+  height: 100%;
 }
