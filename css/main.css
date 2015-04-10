@@ -87,6 +87,9 @@ img {
 figure {
   margin: 0;
 }
+.pics {
+  clear: both;
+  position: relative;
 }
 .ant {
   float: left;
@@ -163,6 +166,16 @@ figure {
   width: 60%;
   text-align: center;
   box-shadow: 0.2em 0.2em 2em black;
+}
+
+.ant-beetle {
+  position: relative;
+}
+.stag-beetle {
+  position: relative;
+}
+.dung-beetle {
+  position: relative;
 }
 .tortoise {
   position: relative;
